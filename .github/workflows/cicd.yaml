@@ -1,0 +1,13 @@
+name: CICD pipeline
+
+on: push
+
+jobs:
+  complie:
+    runs-on: ubuntu-latest
+
+    steps: 
+      run : |
+      sudo apt update
+      echo "Hello"
+
