@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      run : |
-        sudo apt update
-        echo "Hello"
+    - name: test message
+      run: echo "Hello"
 
