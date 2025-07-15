@@ -3,7 +3,7 @@ on: push
 
 jobs:
   compile:
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
     steps:
     - name: test message print
       run: sudo echo "Hello linux"
