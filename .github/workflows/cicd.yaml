@@ -4,9 +4,9 @@ on: push
 
 jobs:
   complie:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps: 
-    #- name: test message
+      -name: test message
       run: echo "Hello"
 
