@@ -1,12 +1,9 @@
-name: CICD pipeline
-
-on: 
-  push:
+name: CICD
+on: push
 
 jobs:
-  compile:
-    runs-on: self-hosted
-
+  test message:
+    runs-on: ubuntu-lts
     steps:
-      - name: test message
-        run: echo "Hello"
+    - name: test message
+      run: echo "hi"
