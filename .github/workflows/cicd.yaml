@@ -1,12 +1,12 @@
 name: CICD pipeline
 
-on: push
+on: 
+  push:
 
 jobs:
-  complie:
+  compile:
     runs-on: self-hosted
 
-    steps: 
-    -name: test message
-    run: echo "Hello"
-
+    steps:
+      - name: test message
+        run: echo "Hello"
