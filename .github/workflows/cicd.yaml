@@ -8,6 +8,6 @@ jobs:
 
     steps: 
       run : |
-      sudo apt update
-      echo "Hello"
+        sudo apt update
+        echo "Hello"
 
